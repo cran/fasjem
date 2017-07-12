@@ -1,17 +1,17 @@
 Package: fasjem
-Version: 1.1.0
-Date: 2017-05-24
+Version: 1.1.1
+Date: 2017-07-10
 Title: A Fast and Scalable Joint Estimator for Learning Multiple
         Related Sparse Gaussian Graphical Models
 Authors@R: c(person("Beilun", "Wang", role = c("aut", "cre"), email = "bw4mw@virginia.edu"), person("Yanjun", "Qi", role = "aut", email = "yanjun@virginia.edu"))
 Author: Beilun Wang [aut, cre], Yanjun Qi [aut]
 Maintainer: Beilun Wang <bw4mw@virginia.edu>
 Depends: R (>= 3.0.0), igraph
-Description: The FASJEM (A Fast and Scalable Joint Estimator for Learning Multiple Related Sparse Gaussian Graphical Models) is a joint estimator which is fast and scalable for learning multiple related sparse Gaussian graphical models. For more details, please see <https://www.cs.virginia.edu/yanjun/paperA14/2017_JEM_combined.pdf>.
+Description: This is an R implementation of "A Fast and Scalable Joint Estimator for Learning Multiple Related Sparse Gaussian Graphical Models" (FASJEM). The FASJEM algorithm can be used to estimate multiple related precision matrices. For instance, it can identify context-specific gene networks from multi-context gene expression datasets. By performing data-driven network inference from high-dimensional and heterogonous data sets, this tool  can help users effectively translate aggregated data into knowledge that take the form of graphs among entities. Please run demo(fasjem) to learn the basic functions provided by this package. For more details, please see <http://proceedings.mlr.press/v54/wang17e/wang17e.pdf>.
 License: GPL-2
-URL: https://www.cs.virginia.edu/~bw4mw, https://github.com/QData/JEM
+URL: https://github.com/QData/JEM
 BugReports: https://github.com/QData/JEM
 NeedsCompilation: no
-Packaged: 2017-05-25 18:53:21 UTC; beilunwang
+Packaged: 2017-07-12 14:58:20 UTC; beilunwang
 Repository: CRAN
-Date/Publication: 2017-05-25 21:13:29 UTC
+Date/Publication: 2017-07-12 16:11:48 UTC
